@@ -6,10 +6,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NoPrecin.API.Configuration;
+using NoPrecin.Data.Context;
+using AutoMapper;
 
 namespace NoPrecin.API
 {
@@ -25,7 +29,15 @@ namespace NoPrecin.API
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddDbContext<MeuDBContext>(options =>
+			{
+				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+			});
+
 			services.AddControllers();
+			services.AddAutoMapper(typeof(Startup));
+			services.ResolveDependecies();
+			
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dE/o/PFHfBuq2T+/UhhXjZG1+/N3UKKEgH+o+hjY5rZ4p/gsG6wpaxhH5b86Q1pzHyVIi4Q805jxg4yruC3IlA==",
+  "dgSpecHash": "Dkxdlw/scoqYfSyW9139Xhkt3mz42RyxaAh5V+u8yVh3wnhfFMkpBPytYBotBpafyLm1L4HlEWq1eQrRdu2lbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation\\9.0.1\\fluentvalidation.9.0.1.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.0.1\\fluentvalidation.aspnetcore.9.0.1.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.0.1\\fluentvalidation.dependencyinjectionextensions.9.0.1.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,12 @@
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\bin\Debug\netcoreapp3.1\NoPrecin.Data.deps.json
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\bin\Debug\netcoreapp3.1\NoPrecin.Data.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.csprojAssemblyReference.cache
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.AssemblyInfoInputs.cache
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.AssemblyInfo.cs
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\bin\Debug\netcoreapp3.1\NoPrecin.Data.pdb
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.csproj.CoreCompileInputs.cache
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.pdb
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\bin\Debug\netcoreapp3.1\NoPrecin.Business.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\bin\Debug\netcoreapp3.1\NoPrecin.Business.pdb
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.Data\obj\Debug\netcoreapp3.1\NoPrecin.Data.csproj.CopyComplete
