@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj": {}
+    "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj": {
+    "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj",
         "projectName": "NoPrecin.API",
-        "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj",
+        "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.API\\NoPrecin.API.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.API\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
-                "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj"
+              "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj"
               },
-              "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj": {
-                "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj"
+              "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj"
               }
             }
           }
@@ -55,6 +55,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -89,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
+    "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
         "projectName": "NoPrecin.Business",
-        "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
+        "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -153,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj": {
+    "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj",
         "projectName": "NoPrecin.Data",
-        "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj",
+        "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Data\\NoPrecin.Data.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Data\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -179,8 +187,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
-                "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj"
+              "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj"
               }
             }
           }
