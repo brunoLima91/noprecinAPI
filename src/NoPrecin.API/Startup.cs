@@ -26,7 +26,7 @@ namespace NoPrecin.API
 
 		public IConfiguration Configuration { get; }
 
-		// This method gets called by the runtime. Use this method to add services to the container.
+		
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddDbContext<MeuDBContext>(options =>
@@ -34,13 +34,15 @@ namespace NoPrecin.API
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
 			});
 
-			services.AddControllers();
+
+			services.AddIdentityConfiguration(Configuration);			
 			services.AddAutoMapper(typeof(Startup));
+			services.WebApiConfig();
 			services.ResolveDependecies();
 			
 		}
 
-		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+		
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 		{
 			if (env.IsDevelopment())
@@ -48,16 +50,8 @@ namespace NoPrecin.API
 				app.UseDeveloperExceptionPage();
 			}
 
-			app.UseHttpsRedirection();
+			app.UseMvcConfiguration();
 
-			app.UseRouting();
-
-			app.UseAuthorization();
-
-			app.UseEndpoints(endpoints =>
-			{
-				endpoints.MapControllers();
-			});
 		}
 	}
 }
