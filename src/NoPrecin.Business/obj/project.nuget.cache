@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5re7Bc0ENrrqNyUhy521vOXgei8keF3ykticy98wLh8TZar8HwUcmPeLKcBYLwn0bQVA+zpChYgOqTpxKm94rg==",
+  "dgSpecHash": "Dkxdlw/scoqYfSyW9139Xhkt3mz42RyxaAh5V+u8yVh3wnhfFMkpBPytYBotBpafyLm1L4HlEWq1eQrRdu2lbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
+  "projectFilePath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation\\9.0.1\\fluentvalidation.9.0.1.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.0.1\\fluentvalidation.aspnetcore.9.0.1.nupkg.sha512",

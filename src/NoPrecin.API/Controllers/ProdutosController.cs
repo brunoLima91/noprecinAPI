@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NoPrecin.API.Extentions;
 using NoPrecin.API.ViewModels;
 using NoPrecin.Business.Interfaces;
 using System;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NoPrecin.API.Controllers
 {
-	
+	[Authorize]
 	[Route("api/produtos")]
 	public class ProdutosController : MainController
 	{
@@ -28,10 +30,18 @@ namespace NoPrecin.API.Controllers
 			_mapper = mapper;
 		}
 
+		[AllowAnonymous]
 		[HttpGet]
 		public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
 		{
 			return _mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterTodos());
+		}
+
+		[ClaimAuthorize("Produto","ler")]
+		[HttpGet("{id:guid}")]
+		public async Task<ProdutoViewModel> ObterPorId(Guid id)
+		{
+			return _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterPorId(id));
 		}
 	}
 }

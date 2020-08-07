@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {}
+    "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
+    "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
         "projectName": "NoPrecin.Business",
-        "projectPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
+        "projectPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\NoPrecin.Business.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\Source\\Repos\\noprecinAPI\\src\\NoPrecin.Business\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\source\\repos\\noprecinAPI\\src\\NoPrecin.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
