@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using NoPrecin.API.Extentions;
 using NoPrecin.API.ViewModels;
 using NoPrecin.Business.Interfaces;
+using NoPrecin.Business.Models;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -20,11 +21,12 @@ namespace NoPrecin.API.Controllers
 	{
 		private readonly SignInManager<IdentityUser> _signInManager;
 		private readonly UserManager<IdentityUser> _userManager;
-		private readonly AppSettings _appSettings;
+		private readonly AppSettings _appSettings;		
 		public AuthController(SignInManager<IdentityUser> signInManager,
 			UserManager<IdentityUser> userManager,
 			IOptions<AppSettings> appSettings,
-			INotificador notificador) : base(notificador)
+			IUser user,
+			INotificador notificador) : base(notificador, user)
 		{
 			_signInManager = signInManager;
 			_userManager = userManager;

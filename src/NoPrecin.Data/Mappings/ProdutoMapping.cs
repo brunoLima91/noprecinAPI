@@ -25,6 +25,15 @@ namespace NoPrecin.Data.Mappings
 				.IsRequired()
 				.HasColumnType("varchar(100)");
 
+			builder.Property(p => p.EmailProprietario)
+				.IsRequired()
+				.HasColumnType("varchar(100");
+
+			// 1: 1 => Produto: Venda
+			builder.HasOne(f => f.Venda)
+				.WithOne(e => e.Produto)
+				.OnDelete(DeleteBehavior.Cascade);
+
 			builder.ToTable("Produtos");
 		}
 

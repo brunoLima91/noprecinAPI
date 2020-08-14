@@ -13,9 +13,11 @@ namespace NoPrecin.API.Configuration
 		public AutoMapperConfig()
 		{
 			
-			CreateMap<ProdutoViewModel, Produto>().ReverseMap();
+			CreateMap<ProdutoViewModelRequest, Produto>().ReverseMap();
+			CreateMap<ProdutoViewModelResponse, Produto>().ReverseMap();
+			CreateMap<Venda, VendaViewModelResponse>().ReverseMap();
+			CreateMap<Venda, VendaViewModelRequest>().ReverseMap();
 
-			
 		}
 	}
 }

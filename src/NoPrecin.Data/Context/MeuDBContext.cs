@@ -16,6 +16,7 @@ namespace NoPrecin.Data.Context
 		}
 
 		public DbSet<Produto> Produtos { get; set; }
+		public DbSet<Venda> Vendas { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

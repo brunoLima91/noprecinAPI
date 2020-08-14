@@ -12,6 +12,7 @@ namespace NoPrecin.Business.Interfaces
 		//Task<IEnumerable<Produto>> ObterProdutosFornecedores();
 		//Task<Produto> ObterProdutoFornecedor(Guid id);
 
-		//Task AtualizarProduto(Produto pProduto);
+		Task AtualizarProduto(Produto pProduto);
+		Task<Produto> ObterProdutoPorId(Guid id);
 	}
 }

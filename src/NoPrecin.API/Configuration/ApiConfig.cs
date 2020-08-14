@@ -28,6 +28,28 @@ namespace NoPrecin.API.Configuration
 					);
 			});
 
+			//services.AddSwaggerGen(c =>
+			//{
+			//	c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+			//	{
+			//		Version = "v1",
+			//		Title = "NoPrecin API",
+			//		Description = "API desenvolvida para o projeto NoPrecin",
+			//		Contact = new Microsoft.OpenApi.Models.OpenApiContact
+			//		{
+			//			Name = "NoPrecin Supports",
+			//			Email = "noprecin@supports.com",
+			//			Url = new Uri("https://github.com/brunoLima91/noprecinAPI")
+			//		},
+			//		License = new Microsoft.OpenApi.Models.OpenApiLicense
+			//		{
+			//			Name = "MIT",
+			//			Url = new Uri("https://github.com/brunoLima91/noprecinAPI")
+			//		}
+			//	});
+			//});
+
+			services.AddSwaggerConfig();
 			return services;
 		}
 
@@ -41,7 +63,11 @@ namespace NoPrecin.API.Configuration
 			app.UseRouting();
 			app.UseAuthorization();
 
-
+			app.UseSwagger();
+			app.UseSwaggerUI(c =>
+			{
+				c.SwaggerEndpoint("/swagger/v1/swagger.json", "NoPrecin API");
+			});
 
 			app.UseEndpoints(endpoints =>
 			{

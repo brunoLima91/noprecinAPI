@@ -1,5 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using NoPrecin.API.Extentions;
 using NoPrecin.Business.Interfaces;
+using NoPrecin.Business.Models;
 using NoPrecin.Business.Notificacoes;
 using NoPrecin.Business.Services;
 using NoPrecin.Data.Context;
@@ -20,7 +23,11 @@ namespace NoPrecin.API.Configuration
 			services.AddScoped<INotificador, Notificador>();			
 			services.AddScoped<IProdutoService, ProdutoService>();
 
+			services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+			services.AddScoped<IUser, AspNetUser>();
 
+			services.AddScoped<IVendaRepository, VendaRepository>();
+			services.AddScoped<IVendaService, VendaService>();
 
 			return services;
 		}
