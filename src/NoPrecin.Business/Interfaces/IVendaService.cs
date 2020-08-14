@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace NoPrecin.Business.Interfaces
 {
-	public interface IProdutoService : IDisposable
+	public interface IVendaService : IDisposable
 	{
-		Task<Produto> Adicionar(Produto produto);
-		Task Atualizar(Produto produto);
+		Task<Venda> Adicionar(Venda venda);
+		Task Atualizar(Venda venda);
 		Task Remover(Guid id);
 	}
 }

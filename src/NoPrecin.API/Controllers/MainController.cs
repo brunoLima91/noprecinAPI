@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using NoPrecin.Business.Interfaces;
 using NoPrecin.Business.Notificacoes;
+using NoPrecin.Business.Models;
 
 namespace NoPrecin.API.Controllers
 {
@@ -13,10 +14,22 @@ namespace NoPrecin.API.Controllers
 	public abstract class MainController : ControllerBase
 	{
 		private readonly INotificador _notificador;
+		public readonly IUser _appUser;
 
-		public MainController(INotificador notificador)
+		protected Guid UsuarioId { get; set; }
+		protected bool UsuarioAutenticado { get; set; }
+
+		public MainController(INotificador notificador,
+			IUser appUser)
 		{
 			_notificador = notificador;
+			_appUser = appUser;
+
+			if (appUser.IsAuthenticated())
+			{
+				UsuarioId = appUser.GetUserId();
+				UsuarioAutenticado = true;
+			}
 		}
 
 		protected bool OperacaoValida()

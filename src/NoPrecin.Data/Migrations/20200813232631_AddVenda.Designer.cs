@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NoPrecin.Data.Context;
 
 namespace NoPrecin.Data.Migrations
 {
     [DbContext(typeof(MeuDBContext))]
-    partial class MeuDBContextModelSnapshot : ModelSnapshot
+    [Migration("20200813232631_AddVenda")]
+    partial class AddVenda
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -78,6 +78,10 @@ C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1
 C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\obj\Debug\netcoreapp3.1\NoPrecin.API.csproj.CoreCompileInputs.cache
 C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\obj\Debug\netcoreapp3.1\NoPrecin.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\bruno\source\repos\noprecinAPI\src\NoPrecin.API\obj\Debug\netcoreapp3.1\NoPrecin.API.MvcApplicationPartsAssemblyInfo.cache
